@@ -62,7 +62,7 @@ computed: {
 
 <template>
     <div class="container">
-        <img src="../assets/img/flash.webp" class="absolute w-9/12 ml-24">
+        <img src="../assets/img/flash.webp" class="absolute w-9/12 ml-16">
         <div class="flex pt-4 justify-evenly">
         <p class="text-white text-3xl font-bold ml-3 z-50">Ventes Flash Halloween -50%</p>
         <p class="text-white text-xl font-bold z-50">Se termine dans : {{ days }} : {{ hours }} : {{ minutes}} : {{ seconds }}</p>
