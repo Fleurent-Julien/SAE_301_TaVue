@@ -14,8 +14,8 @@
     <div class="ml-5">
       <button v-on:click="login()" class="rounded-md text-2xl px-5 py-2 bg-orange-100 hover:bg-gradient-to-b hover:from-orange-100 hover:to-yellow-400 mb-3">Connexion</button><br/>
       <button v-on:click="google()" class="rounded-md text-2xl px-5 py-2 bg-orange-100 hover:bg-gradient-to-b hover:from-orange-100 hover:to-yellow-400 mb-3">Connexion avec Google</button><br/>
-      <button v-on:click="github()" class="rounded-md text-2xl px-4 py-2 bg-orange-100 hover:bg-gradient-to-b hover:from-orange-100 hover:to-yellow-400 mb-3">Connexion avec Facebook</button><br/>
-      <button v-on:click="facebook()" class="rounded-md text-2xl px-5 py-2 bg-orange-100 hover:bg-gradient-to-b hover:from-orange-100 hover:to-yellow-400">Connexion avec Github</button>
+      <button v-on:click="github()" class="rounded-md text-2xl px-4 py-2 bg-orange-100 hover:bg-gradient-to-b hover:from-orange-100 hover:to-yellow-400 mb-3">Connexion avec Github</button><br/>
+      <button v-on:click="facebook()" class="rounded-md text-2xl px-5 py-2 bg-orange-100 hover:bg-gradient-to-b hover:from-orange-100 hover:to-yellow-400">Connexion avec Facebook</button>
       <p class="mt-10">Pas de compte ? <RouterLink to="inscription.vue">Inscrivez-vous !</RouterLink></p>
     </div>
     </div>
@@ -26,9 +26,9 @@
 <script>
 import PocketBase from 'pocketbase'
 var pocketbase_ip = "http://127.0.0.1:8090";
-if (import.meta.env.MODE === "production")
-pocketbase_ip = "https://tavue.jfleurent.fr";
-else pocketbase_ip = "http://127.0.0.1:8090";
+// if (import.meta.env.MODE === "production")
+// pocketbase_ip = "https://tavue.jfleurent.fr";
+// else pocketbase_ip = "http://127.0.0.1:8090";
 const pb = new PocketBase(pocketbase_ip);
 
 export default {
