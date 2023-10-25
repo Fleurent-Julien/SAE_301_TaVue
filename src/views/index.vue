@@ -8,11 +8,11 @@ import MapView from '../components/map.vue'
 
 <template>
     <header>
-    <HeaderVue />
+    <HeaderVue class="" />
     </header>
     <img src="../assets/img/Banniere_accueil.webp" alt="Bannière accueil TaVue" class="w-screen">
     <h1 class="text-5xl text-center my-4 font-bold">Voyez la vie sous une autre couleur !</h1>
-    <flash date="31 Oct 2023" class="mt-10"/>
+    <flash date="25 Oct 2023, 18:00:00" class="mt-10"/>
 
     <section class="mt-20">
         <h2 class="font-bold text-4xl ml-5">Personnalisez votre paire de lunettes selon vos goûts.</h2>
@@ -26,8 +26,8 @@ import MapView from '../components/map.vue'
 
     <h2 class="text-3xl font-bold text-center my-20">Ou sommes nous ?</h2>
 
-    <MapView />
-    <footer>
+    <MapView class="mx-52" />
+    <footer class="mt-20">
         <FooterVue />
     </footer>
 </template>
