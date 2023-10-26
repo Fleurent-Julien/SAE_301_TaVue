@@ -1,0 +1,11 @@
+# SAE 301 TaVue Julien Fleurent
+
+
+# Hébergement 
+
+Adresse url : https://tavue.jfleurent.fr:443
+
+Pocketbase
+
+Identifiant : abdallah.makhoul@uni-fcomte.fr
+Mot de passe : SAE3012023

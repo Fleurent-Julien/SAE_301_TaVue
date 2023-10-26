@@ -25,12 +25,12 @@
 
 <script>
 import PocketBase from 'pocketbase'
-var pocketbase_ip = "http://127.0.0.1:8090";
-// if (import.meta.env.MODE === "production")
-// pocketbase_ip = "https://tavue.jfleurent.fr";
-// else pocketbase_ip = "http://127.0.0.1:8090";
-const pb = new PocketBase(pocketbase_ip);
 
+var pocketbase_ip = "";
+if (import.meta.env.MODE === "production")
+  pocketbase_ip = "https://tavue.jfleurent.fr/";
+else pocketbase_ip = "http://127.0.0.1:8090/";
+const pb = new PocketBase(pocketbase_ip); 
 export default {
   methods: {
     //this method allows a new user to sign up the system. Once done, the user receives an email
