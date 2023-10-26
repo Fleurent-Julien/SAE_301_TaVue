@@ -6,6 +6,6 @@ import footervue from '../components/footer.vue';
 
 <template>
 <headervue />
-<flash date="25 Oct 2023, 18:00:00" class="mt-10" />
+<flash date="31 Oct 2023, 23:59:00" class="mt-10" />
 <footervue />
 </template>

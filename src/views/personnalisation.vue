@@ -8,7 +8,7 @@ import Lunettes from '../components/Lunette.vue'</script>
     <header>
         <headervue/>
     </header>
-    <flash date="25 Oct 2023, 18:00:00" class="mt-10"/>
+    <flash date="31 Oct 2023, 23:59:00" class="mt-10"/>
     <div class="grid grid-cols-2">
         <h1 class="text-5xl font-bold my-32 ml-10">Modifiez vos lunettes à ce qui vous correspond.</h1>
         <img src="../assets/img/Lunette.webp" alt="Lunettes TaVue" class="mt-20">
@@ -20,22 +20,60 @@ import Lunettes from '../components/Lunette.vue'</script>
         <div class="bg-white">
             <Lunettes />
         </div>
-        <div class="mb-20">
+        <div class="mb-20 space-y-3">
+            <div class="grid grid-cols-2">
+                <div>
             <p class="text-3xl">Verres</p>
-            <hr class="mr-96 h-2" />
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, voluptate!
-            <p class="text-3xl">Cadre</p>
-            <hr class="mr-96 h-2" />
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, voluptate!
-            <p class="text-3xl">Branche</p>
-            <hr class="mr-96 h-5" />
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, voluptate!
+            <hr class="mr-10" />
+            <div class="flex space-x-2">
+                <div class="rounded-full bg-[#780404] w-12 h-12 mt-2"></div>
+                <div class="rounded-full bg-[#060466] w-12 h-12 mt-2"></div>
+                <div class="rounded-full bg-[#7A4507] w-12 h-12 mt-2"></div>
+                <div class="rounded-full bg-[#FFECD6] w-12 h-12 mt-2"></div>
+                <div class="rounded-full bg-[#CECECE] w-12 h-12 mt-2"></div>
+            </div>
+            </div>
+            <div>
             <p class="text-3xl">Formes</p>
-            <hr class="mr-96 h-5" />
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, voluptate!
-            <p class="text-3xl">Matériau</p>
-            <hr class="mr-96 h-5" />
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, voluptate!
+            <hr class="mr-10" />
+            <div class="flex space-x-10">
+           <div class="border-2 border-[#000000] h-12 w-12 mt-2"></div>
+           <div class="rounded-3xl border-2 border-[#000000] h-12 w-10 mt-2"></div>
+           <div class="rounded-full border-2 border-[#000000] h-12 w-12 mt-2"></div>
+           </div>
+           </div>
+            </div>
+            <p class="text-3xl">Cadre</p>
+            <hr class="mr-10" />
+            <div class="flex space-x-8 my-2">
+                <div class="rounded-full bg-[#780404] w-12 h-12 mt-2"></div>
+                <div class="rounded-full bg-[#060466] w-12 h-12 mt-2"></div>
+                <div class="rounded-full bg-[#7A4507] w-12 h-12 mt-2"></div>
+                <div class="rounded-full bg-[#FFECD6] w-12 h-12 mt-2"></div>
+                <div class="rounded-full bg-[#CECECE] w-12 h-12 mt-2"></div>
+            </div>
+            <div class="grid grid-cols-2">
+                <div>
+            <p class="text-3xl">Branche</p>
+            <hr class="mr-10" />
+            <div class="flex space-x-2">
+                <div class="rounded-full bg-[#780404] w-12 h-12 mt-2"></div>
+                <div class="rounded-full bg-[#060466] w-12 h-12 mt-2"></div>
+                <div class="rounded-full bg-[#7A4507] w-12 h-12 mt-2"></div>
+                <div class="rounded-full bg-[#FFECD6] w-12 h-12 mt-2"></div>
+                <div class="rounded-full bg-[#CECECE] w-12 h-12 mt-2"></div>
+            </div>
+        </div>
+            <div>
+            <p class="text-3xl">Matériaux</p>
+            <hr class="mr-10" />
+            <div class="flex space-x-5 w-12 h-12 mt-2">
+            <img src="../assets/img/Alluminium.png" alt="Branches en alluminium">
+            <img src="../assets/img/Metal.png" alt="Branches en métal">
+            <img src="../assets/img/bois.png" alt="Branches en bois">
+            </div>
+            </div>
+        </div>
         </div>
     </div>
 <footer>
@@ -49,4 +87,5 @@ hr {
         height: 2px;
         background: black;
     }
+
 </style>

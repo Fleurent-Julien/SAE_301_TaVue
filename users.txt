@@ -7,5 +7,5 @@ Adresse url : https://tavue.jfleurent.fr:443
 
 Pocketbase
 
-Identifiant : abdallah.makhoul@uni-fcomte.fr
+Identifiant : abdallah.makhoul@univ-fcomte.fr
 Mot de passe : SAE3012023
